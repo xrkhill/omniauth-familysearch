@@ -91,7 +91,9 @@ describe OmniAuth::Strategies::FamilySearch do
 
   context '#raw_info' do
     it 'should use relative path' do
-      access_token.should_receive(:get).with('/platform/users/current.json').and_return(response)
+      path = '/platform/users/current'
+      opts = { :headers => { 'Accept' => 'application/x-fs-v1+json' }, :parse => :json }
+      access_token.should_receive(:get).with(path, opts).and_return(response)
       subject.raw_info.should eq(parsed_response)
     end
   end
