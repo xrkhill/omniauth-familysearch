@@ -4,6 +4,8 @@ OmniAuth strategy for FamilySearch OAuth2 API.
 
 There is also a [companion strategy](https://github.com/xrkhill/omniauth-familysearch-identity) for the Identity v2 API (OAuth 1.0a).
 
+Note: FamilySearch [requires](https://familysearch.org/developers/docs/guides/authentication) web apps to use the OAuth 2 API.
+
 ## Installation
 
 Add this line to your application's Gemfile:
