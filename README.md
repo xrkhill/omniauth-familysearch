@@ -1,6 +1,8 @@
 # Omniauth FamilySearch
 
-OmniAuth strategy for FamilySearch OAuth2 API
+OmniAuth strategy for FamilySearch OAuth2 API.
+
+There is also a [companion strategy](https://github.com/xrkhill/omniauth-familysearch-identity) for the Identity v2 API (OAuth 1.0a).
 
 ## Installation
 
@@ -68,7 +70,7 @@ Here's an example Auth Hash available in `request.env['omniauth.auth']`:
 
 ## FamilySearch OAuth 2 Docs
 
-https://familysearch.org/developers/docs/oauth2
+https://familysearch.org/developers/docs/guides/oauth2
 
 ## Contributing
 
