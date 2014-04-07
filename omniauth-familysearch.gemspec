@@ -16,6 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = OmniAuth::FamilySearch::VERSION
 
   gem.add_runtime_dependency('multi_json')
+  gem.add_runtime_dependency('faraday', '~> 0.8.9')
   gem.add_runtime_dependency('omniauth-oauth2', '~> 1.0')
 
   gem.add_development_dependency 'rspec', '~> 2.7'
