@@ -1,4 +1,4 @@
-# Omniauth FamilySearch
+# Omniauth FamilySearch [![Build Status](https://travis-ci.org/xrkhill/omniauth-familysearch.svg?branch=master)](https://travis-ci.org/xrkhill/omniauth-familysearch)
 
 OmniAuth strategy for FamilySearch OAuth2 API.
 
