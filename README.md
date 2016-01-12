@@ -72,7 +72,7 @@ Here's an example Auth Hash available in `request.env['omniauth.auth']`:
 
 ## FamilySearch OAuth 2 Docs
 
-https://familysearch.org/developers/docs/guides/oauth2
+https://familysearch.org/developers/docs/guides/authentication
 
 ## Contributing
 
